@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "crawnical-installer"
+version = "0.1.0"
+description = ""
+authors = ["William Scullion <williamscullion@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+fbs = "^0.8.6"
+PyQt5 = "5.9.2"
+sip = "^4.19"
+PySide2 = "5.12.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

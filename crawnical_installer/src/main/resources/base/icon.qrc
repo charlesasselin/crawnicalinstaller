@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>Logo_Crawnical_icon_couleur_vert-bleu.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+{
+    "app_name": "Crawnical Installer",
+    "author": "Charles A.",
+    "main_module": "src/main/python/main.py",
+    "version": "0.0.0"
+}

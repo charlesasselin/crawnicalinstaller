@@ -1,0 +1,2 @@
+cp .venv/lib/python3.6/site-packages/shiboken2/libshiboken2.abi3.5.12.dylib .venv/lib/python3.6/site-packages/PySide2/
+cp .venv/lib/python3.6/site-packages/shiboken2/libshiboken2.abi3.5.12.dylib .venv/lib/python3.6/site-packages/PyInstaller/hooks/

@@ -64,7 +64,7 @@ def run(presets, window):
             preset_path = Path(preset)
             # Target path 1 is for previous versions of lightroom
             target_path_1 = (
-                / Path(home_folder)
+                Path(home_folder)
                 / "AppData"
                 / "Roaming"
                 / "Adobe"
@@ -76,7 +76,7 @@ def run(presets, window):
             target_path_1 = target_path_1 / preset_path.name
             # Target path 2 is for new versions of lightroom
             target_path_2 = (
-                / Path(home_folder)
+                Path(home_folder)
                 / "AppData"
                 / "Roaming"
                 / "Adobe"

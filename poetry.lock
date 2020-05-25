@@ -168,14 +168,6 @@ version = "2.4.7"
 
 [[package]]
 category = "main"
-description = "Python bindings for the Qt cross platform UI and application toolkit"
-name = "pyqt5"
-optional = false
-python-versions = "*"
-version = "5.9.2"
-
-[[package]]
-category = "main"
 description = "Python bindings for the Qt cross-platform application and UI framework"
 name = "pyside2"
 optional = false
@@ -220,14 +212,6 @@ python-versions = "*"
 version = "5.12.3"
 
 [[package]]
-category = "main"
-description = "Python extension module generator for C and C++ libraries"
-name = "sip"
-optional = false
-python-versions = "*"
-version = "4.19.8"
-
-[[package]]
 category = "dev"
 description = "Python 2 and 3 compatibility utilities"
 name = "six"
@@ -257,7 +241,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "2d8cdd7510b322f6590fa0e7a33b9ff50b9971e406d0ab667f65c73f1144fba9"
+content-hash = "8c93cedf4b302b42ee3c45ca7a69a5bab522fe5c2b7afc3c65c74cdb69cc2615"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -317,12 +301,6 @@ pyparsing = [
     {file = "pyparsing-2.4.7-py2.py3-none-any.whl", hash = "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"},
     {file = "pyparsing-2.4.7.tar.gz", hash = "sha256:c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1"},
 ]
-pyqt5 = [
-    {file = "PyQt5-5.9.2-5.9.3-cp35.cp36.cp37-abi3-macosx_10_6_intel.whl", hash = "sha256:1abd07467539f26e2e08e26cf27f3513d02c20d038f5ba2e860b5e158cf2f8b1"},
-    {file = "PyQt5-5.9.2-5.9.3-cp35.cp36.cp37-abi3-manylinux1_x86_64.whl", hash = "sha256:5dab7244b6932606490b47a0692e03d7b72d89f7d3dfa3d147a8b34d6af72451"},
-    {file = "PyQt5-5.9.2-5.9.3-cp35.cp36.cp37-none-win32.whl", hash = "sha256:53cdaf2e27945c4828c5c346410208a68017ddb7d333e7885b9087ddb02e7de0"},
-    {file = "PyQt5-5.9.2-5.9.3-cp35.cp36.cp37-none-win_amd64.whl", hash = "sha256:c83b5dabf950e47d0ea3f324a80640d25ae4d0ed90013a45f824498b2110ff84"},
-]
 pyside2 = [
     {file = "PySide2-5.12.3-5.12.3-cp27-cp27m-macosx_10_12_intel.whl", hash = "sha256:8ddcf50fee00cb24f8760423725e8d0ba2a6e405e48fb3112b2d22b0864bb56a"},
     {file = "PySide2-5.12.3-5.12.3-cp27-cp27mu-manylinux1_x86_64.whl", hash = "sha256:565ec327615253901ffa25edcaa5039b1f854a0d782aad775c3cb62575fedb28"},
@@ -342,20 +320,6 @@ shiboken2 = [
     {file = "shiboken2-5.12.3-5.12.3-cp35.cp36.cp37-abi3-manylinux1_x86_64.whl", hash = "sha256:bd06cc77fecec3f232bdfb82be20825f8a05c17f3b034b42f884f940092ba4fc"},
     {file = "shiboken2-5.12.3-5.12.3-cp35.cp36.cp37-none-win32.whl", hash = "sha256:acbc29f88a144a55ca11b17357024e594a2fecd88d93c1a020aac8944fad970a"},
     {file = "shiboken2-5.12.3-5.12.3-cp35.cp36.cp37-none-win_amd64.whl", hash = "sha256:00f16d39cc7934934569ee148a89c2068992f66dbae4c50824087549d1bd7b7a"},
-]
-sip = [
-    {file = "sip-4.19.8-cp35-cp35m-macosx_10_6_intel.whl", hash = "sha256:d9023422127b94d11c1a84bfa94933e959c484f2c79553c1ef23c69fe00d25f8"},
-    {file = "sip-4.19.8-cp35-cp35m-manylinux1_x86_64.whl", hash = "sha256:e72955e12f4fccf27aa421be383453d697b8a44bde2cc26b08d876fd492d0174"},
-    {file = "sip-4.19.8-cp35-none-win32.whl", hash = "sha256:52074f7cb5488e8b75b52f34ec2230bc75d22986c7fe5cd3f2d266c23f3349a7"},
-    {file = "sip-4.19.8-cp35-none-win_amd64.whl", hash = "sha256:5ff887a33839de8fc77d7f69aed0259b67a384dc91a1dc7588e328b0b980bde2"},
-    {file = "sip-4.19.8-cp36-cp36m-macosx_10_6_intel.whl", hash = "sha256:09f9a4e6c28afd0bafedb26ffba43375b97fe7207bd1a0d3513f79b7d168b331"},
-    {file = "sip-4.19.8-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:cf98150a99e43fda7ae22abe655b6f202e491d6291486548daa56cb15a2fcf85"},
-    {file = "sip-4.19.8-cp36-none-win32.whl", hash = "sha256:74da4ddd20c5b35c19cda753ce1e8e1f71616931391caeac2de7a1715945c679"},
-    {file = "sip-4.19.8-cp36-none-win_amd64.whl", hash = "sha256:265ddf69235dd70571b7d4da20849303b436192e875ce7226be7144ca702a45c"},
-    {file = "sip-4.19.8-cp37-cp37m-macosx_10_6_intel.whl", hash = "sha256:97bb93ee0ef01ba90f57be2b606e08002660affd5bc380776dd8b0fcaa9e093a"},
-    {file = "sip-4.19.8-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:7d69e9cf4f8253a3c0dfc5ba6bb9ac8087b8239851f22998e98cb35cfe497b68"},
-    {file = "sip-4.19.8-cp37-none-win32.whl", hash = "sha256:1bb10aac55bd5ab0e2ee74b3047aa2016cfa7932077c73f602a6f6541af8cd51"},
-    {file = "sip-4.19.8-cp37-none-win_amd64.whl", hash = "sha256:105edaaa1c8aa486662226360bd3999b4b89dd56de3e314d82b83ed0587d8783"},
 ]
 six = [
     {file = "six-1.15.0-py2.py3-none-any.whl", hash = "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"},
